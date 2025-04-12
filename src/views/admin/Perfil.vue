@@ -1,8 +1,10 @@
 <template>
-    <h1>Mi Perfil</h1>
+    <div>
+        <h1>Mi Perfil</h1>
+{{ Perfil }}
 
-    {{ Perfil }}
-
+    </div>
+   
     <button @click="funSalir">Salir  (Cerrar Seciones)</button>
 </template>
 

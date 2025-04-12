@@ -8,6 +8,8 @@ import Registro from '../views/auth/Registro.vue'
 
 import Perfil from "../views/admin/Perfil.vue"
 
+import Usuario from "../views/admin/usuario/Usuario.vue";
+
 const routes = [
 
     {path: '/', component: Inicio},
@@ -20,6 +22,7 @@ const routes = [
 
    {path: '/admin/perfil', name: 'Perfil', component: Perfil, meta: {requireAuth: true}},
 
+   {path: '/admin/usuario', name: 'Usuario', component: Usuario, meta: {requireAuth: true}},
 
 ];
 
